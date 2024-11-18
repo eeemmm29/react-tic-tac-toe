@@ -51,6 +51,9 @@ body {
   font-family: sans-serif;
   margin: 20px;
   padding: 0;
+
+  display: flex;
+  justify-content: center;
 }
 
 h1 {
@@ -133,4 +136,8 @@ body {
 
 .game-info {
   margin-left: 20px;
+}
+
+.square.highlight {
+  background-color: green;
 }
